@@ -22,7 +22,7 @@ header {
   background :#eee;
   max-width:200px;
 }
-.tip-header,.tip-header1{
+.tip-header,.tip-header1, .eric-tip-header{
   border-bottom:2px solid white ;
   padding : 0.9rem 1rem;
 
