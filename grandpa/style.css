@@ -1,0 +1,187 @@
+html{
+    font-size: 16px;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textBox {
+    margin: 0% 7.5%;
+}
+
+svg {
+    height: 50%;
+    width: 85%;
+    border: 1px solid #ccc;
+}
+
+.line-bar-container {
+    height: 20%;
+}
+
+.axis .domain {
+    stroke: none;
+}
+
+.x line {
+    stroke: white;
+}
+
+.tooltip {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    background: #eee;
+    max-width: 250px;
+}
+
+.tip-header {
+    border-bottom: 2px solid white;
+    padding: 0.9rem 1rem;
+}
+
+.tip-body{
+    padding: 0.2rem 0;
+}
+
+h3 {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
+.tip-info {
+    margin: 0;
+    padding: 0.3rem 1em;
+    font-size: 0.8em;
+}
+
+.tip-info:nth-of-type(even) {
+    background: #e0e0e0;
+}
+
+.controls {
+    margin: 0% 7.5%;
+    height: 100%;
+}
+
+.button {
+    height: 100%;
+    width: 20%;
+    background: rgb(236, 245, 254);
+    color: black;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5% 0%;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(147, 194, 245);
+    color: #FFF;
+    box-shadow: inset 0 0 3px 2px rgba(30, 143, 255, 0.358);
+}
+
+.button:focus {
+    background: dodgerblue;
+    color: #FFF;
+}
+
+.button:not(:last-child) {
+    margin-right: 1%;
+}
+
+.btn-radius {
+    border: 5px #1e1e1e;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav button {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+/* grandpa */
+
+.publisher {
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.region {
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.y line {
+    stroke: #09155238;
+    stroke-width: 2px;
+}
+
+.selector {
+    width: 100%;
+}
+
+select {
+    width: 33%;
+    stroke: #ccc;
+    font-weight: bold;
+    background: #fccca42c;
+}
+
+select:not(:last-child) {
+    width: 50%;
+    margin-right: 2%;
+}
+
+table,
+td {
+    text-align: center;
+    border: 1px solid #333;
+}
+
+table {
+    width: 100%;
+}
+
+thead,
+tfoot {
+    background-color: #6f6f6f;
+    color: #fff;
+}
+
+.test-stack-bar-chart-container {
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
