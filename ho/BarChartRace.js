@@ -57,30 +57,30 @@ function _barChartSizeIntro(md) {
   )
 }
 
-function _myObservation(md) {
-  return (
-    md`## My Observation
-    In this bar chart race, it is possible to observe that initially, there 
-    may be only one game company(2600) dominating the entire gaming industry, 
-    with competitors gradually emerging later on. However, as the bar chart 
-    race progresses into the middle to later stages, several platforms suddenly 
-    emerge, and their revenue surpasses that of all their competitors, establishing 
-    a significant lead.
-    `
-  )
-}
+// function _myObservation(md) {
+//   return (
+//     md`## My Observation
+//     In this bar chart race, it is possible to observe that initially, there 
+//     may be only one game company(2600) dominating the entire gaming industry, 
+//     with competitors gradually emerging later on. However, as the bar chart 
+//     race progresses into the middle to later stages, several platforms suddenly 
+//     emerge, and their revenue surpasses that of all their competitors, establishing 
+//     a significant lead.
+//     `
+//   )
+// }
 
-function _improvement(md) {
-  return (
-    md`## Some Improvements
-    Since the main modification is based on the official D3 example, the flexibility 
-    is limited. It means that it's not possible to make specific modifications to 
-    individual functionalities. If needed, the only option is to rewrite all the 
-    functionalities. Therefore, this can serve as a starting point for exploring 
-    more D3 functionalities through the bar chart race.
-    `
-  )
-}
+// function _improvement(md) {
+//   return (
+//     md`## Some Improvements
+//     Since the main modification is based on the official D3 example, the flexibility 
+//     is limited. It means that it's not possible to make specific modifications to 
+//     individual functionalities. If needed, the only option is to rewrite all the 
+//     functionalities. Therefore, this can serve as a starting point for exploring 
+//     more D3 functionalities through the bar chart race.
+//     `
+//   )
+// }
 
 function _data(FileAttachment) {
   return (
@@ -431,7 +431,7 @@ export default function define(runtime, observer) {
   main.variable(observer("height")).define("height", ["margin", "barSize", "n"], _height);
   main.variable(observer("barSize")).define("barSize", _barSize);
   main.variable(observer("margin")).define("margin", _margin);
-  main.variable(observer()).define(["md"], _myObservation);
-  main.variable(observer()).define(["md"], _improvement);
+  // main.variable(observer()).define(["md"], _myObservation);
+  // main.variable(observer()).define(["md"], _improvement);
   return main;
 }

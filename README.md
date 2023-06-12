@@ -5,6 +5,8 @@
 - 作業形式: 小組作業(6人小組)
 - 主題: 遊戲資料分析
 
+[Demo URL](https://hapiwangy.github.io/final_project_datavisualization/)
+
 
 ## Pull Request 內容須知
 **以下規則請大家遵守，不然分頁切換會壞掉**  
