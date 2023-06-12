@@ -56,7 +56,7 @@ h2,h4,h5{
 
 .para {
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */ 
   padding: 10px;
 }
 
@@ -72,4 +72,17 @@ footer {
   background-color: #f2f2f2;
   padding: 10px;
   text-align: center;
+}
+
+#PutSelectHere {
+  border: 1px solid black;
+}
+
+select {
+  font-size: larger;
+  width:680px;
+  color: gray;
+  background-color: lightcyan;
+  padding: 10px;
+  border: 1px solid black;
 }

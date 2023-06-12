@@ -119,8 +119,6 @@ function ready(videoGameData) {
 
     // eric pic
     // 取得各發行商在不同地區的銷售量
-
-    // 取得各發行商在不同地區的銷售量
     const publisherSalesData = calculatePublisherSales(videoGameClean);
   
     const select = d3.select('#region-select');

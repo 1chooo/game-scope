@@ -29,6 +29,7 @@ export function addSelect(Datas){
     // 若有需要可以改成到特定元素
     // 參數為 array
     let FirstCanvasSelect = document.createElement('select');
+    FirstCanvasSelect.id = "selection";
     for (let i = 0; i < Datas.length; i++){
         let option = document.createElement("option");
         option.text = `${Datas[i].start} - ${Datas[i].end}`;
@@ -40,6 +41,7 @@ export function addSelect(Datas){
 }
 export function addSelectGenre(genres){
     let FirstCanvasSelect = document.createElement('select');
+    FirstCanvasSelect.id = "selection";
     for (let i = 0; i < genres.length; i++){
         let option = document.createElement("option");
         option.text = `${genres[i]}`;
