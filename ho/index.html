@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Bar Chart Race</title>
     <link rel="stylesheet" type="text/css" href="./inspector.css">
-    <style>
-        /* Add styling for the navigation bar and footer */
-        nav {
-            background-color: #f2f2f2;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        nav button {
-            margin-right: 10px;
-        }
-        footer {
-            background-color: #f2f2f2;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
 </head>
+
 <body>
     <nav>
         <button onclick="changePage('Home')">Home</button>
         <button onclick="changePage('Ho')">Ho</button>
         <button onclick="changePage('happy')">Happy</button>
         <button onclick="changePage('Grandpa')">Grandpa</button>
-      </nav>
-    <h1>Bar Chart Race (Every year Platform Profit)</h1>
+    </nav>
+
+    <div class="textBox">
+        <h1 style="text-align: center;">Bar Chart Race (Every year Platform Profit)</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Work Contribution</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Student Name</td>
+                    <td>Student ID</td>
+                    <td>Contribution</td>
+                </tr>
+                <tr>
+                    <td>林群賀</td>
+                    <td>109601003</td>
+                    <td>Bar Chart Race</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br>
     <div>
-        This bar chart race is designed to showcase the total revenue for each platform on a yearly basis. Therefore, it displays information for one year at a time, and the monetary unit is US dollars (US$).
+        This bar chart race is designed to showcase the total revenue for each platform on a yearly basis. Therefore, it
+        displays information for one year at a time, and the monetary unit is US dollars (US$).
     </div>
     <div id="bar-chart-race"></div>
+    <div class="Observation">
+        <h2>My Observation</h2>
+        In this bar chart race, it is possible to observe that initially, there
+        may be only one game company(2600) dominating the entire gaming industry,
+        with competitors gradually emerging later on. However, as the bar chart
+        race progresses into the middle to later stages, several platforms suddenly
+        emerge, and their revenue surpasses that of all their competitors, establishing
+        a significant lead.
+    </div>
+    <div class="Improvements">
+        <h2>Some Improvements</h2>
+        Since the main modification is based on the official D3 example, the flexibility
+        is limited. It means that it's not possible to make specific modifications to
+        individual functionalities. If needed, the only option is to rewrite all the
+        functionalities. Therefore, this can serve as a starting point for exploring
+        more D3 functionalities through the bar chart race.
+    </div>
+    <br><br>
     <footer>
         This is the footer section.
     </footer>
@@ -45,7 +74,8 @@
             const main = runtime.module(define, Inspector.into(document.getElementById('bar-chart-race')));
         </script>
     </div>
-    
+
     <script src="js/script.js"></script>
 </body>
+
 </html>

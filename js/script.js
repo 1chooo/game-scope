@@ -6,7 +6,7 @@ function changePage(pageName) {
   } else if (pageName === 'happy') {
     window.location.href = './happy/index.html';
   } else if (pageName === 'Grandpa') {
-    window.location.href = './grandpa.html';
+    window.location.href = './grandpa/index.html';
   } else if (pageName === 'example') {
     window.location.href = './example/index.html';
   } 

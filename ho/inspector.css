@@ -100,3 +100,40 @@
   word-break: break-all;
   white-space: pre-wrap
 }
+
+/* Add styling for the navigation bar and footer */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav button {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.textBox {
+  margin: 0% 7.5%;
+}
+
+table,
+td {
+  text-align: center;
+  border: 1px solid #333;
+}
+
+table {
+  width: 100%;
+}
+
+thead,
+tfoot {
+  background-color: #6f6f6f;
+  color: #fff;
+}
