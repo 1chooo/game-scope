@@ -1,4 +1,4 @@
-# final_project_datavisualization
+# Game Scoped
 
 ## Project Information
 - Course Name: Data Visualization
